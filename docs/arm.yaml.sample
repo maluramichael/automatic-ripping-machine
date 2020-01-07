@@ -33,6 +33,9 @@ MAXLENGTH: "99999"
 # Additional parameters for dd. e.g. "conv=noerror,sync" for ignoring read errors
 DATA_RIP_PARAMETERS: ""
 
+# Actual identified disc type is replaced. Options are "music", "dvd", "bluray" and "data"
+# OVERRIDE_DISC_TYPE: "data"
+
 #####################
 ## Directory setup ##
 #####################
