@@ -27,4 +27,4 @@ yamlfile = "/etc/arm/arm.yaml"
 #                 of.writelines(line)
 
 with open(yamlfile, "r") as f:
-    cfg = yaml.load(f)
+    cfg = yaml.full_load(f)
